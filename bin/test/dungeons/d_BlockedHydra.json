@@ -1,0 +1,34 @@
+{
+    "entities": [
+        {
+            "type" : "player",
+            "x" : 1,
+            "y" : 1
+        },{
+            "type" : "wall",
+            "x" : 5,
+            "y" : 6
+        }, {
+            "type":"boulder",
+            "x": 5,
+            "y": 4
+        }, {
+            "type": "wall",
+            "x": 4,
+            "y":5
+        }, {
+            "type": "wall",
+            "x": 6,
+            "y": 5
+        }, {
+            "type" : "hydra",
+            "x" : 5,
+            "y" : 5
+        }, {
+            "type": "exit",
+            "x": 5,
+            "y": 8
+        }
+    ],
+    "goal-condition": {"goal": "exit"}
+}

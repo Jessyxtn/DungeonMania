@@ -1,0 +1,55 @@
+{
+    "entities": [
+        {   
+            "type": "player",
+            "x": 3,
+            "y": 0
+            
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "type": "time_travelling_portal",
+            "colour": "time_travelling_portal"
+        },
+        {
+            "type" : "spider",
+            "x" : 5,
+            "y" : 5
+        },
+        {   
+            "type": "invincibility_potion",
+            "x": 4,
+            "y": 0  
+        },
+        {   
+            "type": "time_turner",
+            "x": 5,
+            "y": 0  
+        }, 
+        {   
+            "type": "treasure",
+            "x": 5,
+            "y": -1  
+        },
+        {   
+            "type": "treasure",
+            "x": 5,
+            "y": -2  
+        },
+        {   
+            "type": "sword",
+            "x": 5,
+            "y": -3  
+        },
+        {   
+            "type": "mercenary",
+            "x": 7,
+            "y": -5  
+        }
+
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}

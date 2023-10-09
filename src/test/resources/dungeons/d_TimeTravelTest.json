@@ -1,0 +1,29 @@
+{
+    "entities": [
+        {
+            "x": 3,
+            "y": 0,
+            "type": "player"
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "type": "time_travelling_portal",
+            "colour": "time_travelling_portal"
+        },
+        {
+            "type" : "wood",
+            "x" : 2,
+            "y" : 1
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": "time_turner"
+          
+        }
+    ],
+    "goal-condition": {
+        "goal": "exit"
+    }
+}
